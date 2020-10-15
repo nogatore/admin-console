@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+}
+
+header>h1 {
+    font-size: medium;
+    display: inline;
+}
+
+header>span {
+    padding: 8px;
+}
+
+header>span>*:not(:first-child) {
+    margin-left: 8px;
+}
+
+header>span>a {
+    color: blue;
+    text-decoration: none;
+}
+
+header>span>a:hover {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header>span>a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+main {
+    padding: 8px 0;
+    width: 100%;
+}
+
+main>*:not(:first-child) {
+    margin-top: 8px;
+}
+
+main>div>button:not(:first-child) {
+    margin-left: 8px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,th {
+    border: solid 1px black;
+    padding: 8px;
+}
+
+td>*:not(:first-child) {
+    margin-left: 8px;
+}
+
+li:not(:first-child) {
+    margin-top: 8px;
+}
+
+li>*:not(:first-child) {
+    margin-left: 8px;
+}
+
+button {
+    min-height: 27px;
+}
